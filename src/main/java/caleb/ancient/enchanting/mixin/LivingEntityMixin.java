@@ -95,16 +95,15 @@ public class LivingEntityMixin{
             entity.world.addParticle(ParticleTypes.FLAME, d, e, f, 0.0, 0.0, 0.0);
 
             SkeletonMinionEntity m = new SkeletonMinionEntity(ModEntities.SKELETON_MINION, entity.world);
-
             m.setLevel(level);
             m.setOwner(entity);
             m.setPos(pos.getX(), pos.getY()+1, pos.getZ());
 
             entity.getWorld().spawnEntity(m);
         }
-
-        
     }
+
+
 
     public void jump() {
         double d = (double)this.getJumpVelocity() + entity.getJumpBoostVelocityModifier();
