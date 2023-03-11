@@ -15,6 +15,7 @@ import net.minecraft.world.World;
 
 public class HellWalkerEnchantment
 extends AncientEnchantment {
+    
     public HellWalkerEnchantment(AncientEnchantment.Rarity rarity, EnchantmentTarget enchantmentTarget, EquipmentSlot ... equipmentSlots) {
         super(rarity, enchantmentTarget, equipmentSlots);
     }

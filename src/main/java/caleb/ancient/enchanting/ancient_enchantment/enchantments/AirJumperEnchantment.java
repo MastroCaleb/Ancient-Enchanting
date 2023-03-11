@@ -5,6 +5,7 @@ import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
 
 public class AirJumperEnchantment extends AncientEnchantment {
+    
     public AirJumperEnchantment(AncientEnchantment.Rarity rarity, EnchantmentTarget enchantmentTarget, EquipmentSlot ... equipmentSlots) {
         super(rarity, enchantmentTarget, equipmentSlots);
     }
