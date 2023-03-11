@@ -34,7 +34,6 @@ public class AnvilScreenHandlerMixin extends ForgingScreenHandler{
     public AnvilScreenHandlerMixin(ScreenHandlerType<?> type, int syncId, PlayerInventory playerInventory,
             ScreenHandlerContext context) {
         super(type, syncId, playerInventory, context);
-        //TODO Auto-generated constructor stub
     }
 
     @SuppressWarnings("unused")

@@ -61,7 +61,7 @@ extends MagmaBlock {
         this.melt(state, world, pos);
         return true;
     }
- /// balls balss
+    
     @Override
     public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
         if (sourceBlock.getDefaultState().isOf(this) && this.canMelt(world, pos, 2)) {

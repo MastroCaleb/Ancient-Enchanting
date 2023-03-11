@@ -78,7 +78,7 @@ public class LivingEntityMixin{
         
         java.util.Random r = new java.util.Random();
 
-        int level =EnchantmentHelper.getLevel(AncientEnchantments.SUMMONERS_CALL, entity.getEquippedStack(EquipmentSlot.CHEST));
+        int level = EnchantmentHelper.getLevel(AncientEnchantments.SUMMONERS_CALL, entity.getEquippedStack(EquipmentSlot.CHEST));
 
         float chance = 1.5f*level;
 
